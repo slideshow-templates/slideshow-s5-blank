@@ -4,7 +4,7 @@
 
 A Ruby gem that lets you create slide shows and author slides in plain text
 using a wiki-style markup language that's easy-to-write and easy-to-read.
-More [Slide Show (S9) Project Site &raquo;](http://slideshow.rubyforge.org)
+More [Slide Show (S9) Project Site »](http://slideshow-s9.github.io)
 
 
 ## Intro
@@ -35,16 +35,16 @@ slides generated using this template pack.
 
 If you want to try it yourself, install (fetch) the new template pack. Issue the command:
 
-    $ slideshow -f s5blank
+    $ slideshow install s5blank
 
 Or as an alternative clone the template pack using `git`. Issue the commands:
 
     $ cd ~/.slideshow/templates
-    $ git clone git://github.com/geraldb/slideshow-s5-blank.git
+    $ git clone git://github.com/slideshow-s9/slideshow-s5-blank.git
 
-To check if the new template got installed, use the `-l/--list` switch/command:
+To check if the new template got installed, use the `list` command:
 
-    $ slideshow -l
+    $ slideshow list
 
 Listing something like:
 
@@ -53,7 +53,7 @@ Listing something like:
 
 Tip: To get started use the welcome quick starter sample. Issue the command:
 
-    $ slideshow -q
+    $ slideshow new
 
 Now you will have a copy of the `welcome.text` Quick Starter sample
 in Markdown in your working folder.
@@ -97,10 +97,10 @@ A Free Web Alternative to PowerPoint and KeyNote in Ruby
 * That's it. Showtime!
 ```
 
-Showtime! Let's use the `-t/--template` switch to generate the
+Showtime! Let's use the `-t/--template` switch to build the
 sample slide show. Example:
 
-    $ slideshow -t s5blank welcome.text
+    $ slideshow build welcome.text -t s5blank
 
 Open up the generated `welcome.html` page in your browser. Voila. That's it.
 
