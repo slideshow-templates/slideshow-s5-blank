@@ -27,8 +27,8 @@ the following headers in `slides.html.erb`:
     subfooter: Your Subfooter Here
 
 See the original [S5: An Introduction](http://meyerweb.com/eric/tools/s5/s5-intro.html) slides in action or
-see the [Slide Show (S9) Tutorial](http://slideshow.rubyforge.org/s5/tutorial.html)
-slides generated using this template pack.
+see the [Slide Show (S9) Tutorial](http://slideshow-s9.github.io/s5/tutorial1.html)
+slides built using this template pack.
  
  
 ## Try It Yourself - How To Use the S5 Blank Template Pack
@@ -68,8 +68,7 @@ Title: Slide Show (S9) 10-Minute Tutorial
 %%%%%%%%%%%%%%
 %% Let's go.
 
-Slide Show (S9) 10-Minute Tutorial
-==================================
+# Slide Show (S9) 10-Minute Tutorial
 
 Agenda
 
@@ -78,11 +77,9 @@ Agenda
 * How it works - Just press F11! 
 * What's S5? What's S6?
 * Gradient Themes Using "Loss-Free" Vector Graphics in S9 
-* Turn Your Online Wiki Pages into Slide Shows - Sputnik Case Study
 
 
-What's Slide Show (S9)?
-=======================
+# What's Slide Show (S9)?
 
 ### What? 
 
