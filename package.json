@@ -1,0 +1,21 @@
+{
+  "name": "slideshow-s5-blank",
+  "version": "0.1.0",
+  "description": "S5 Blank - Slide Show (S9) Template Pack",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/slideshow-templates/slideshow-s5-blank.git"
+  },
+  "keywords": [
+    "slideshow",
+    "s5",
+    "s9",
+    "slideshow-templates"
+  ],
+  "author": "Gerald Bauer",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/slideshow-templates/slideshow-s5-blank/issues"
+  },
+  "homepage": "https://github.com/slideshow-templates/slideshow-s5-blank"
+}
