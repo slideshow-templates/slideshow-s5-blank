@@ -1,8 +1,9 @@
+##################################################################
 # Sample template package manifest using S5.11 blank package
 # Change as desired/needed
 #
-# Configured to use the following headers in slides.html.erb:
-# 
+# Configured to use the following headers in slides.html:
+#
 # author: Your Name Here
 # company: Your Company Here
 # title: Your Slide Show Title Here
@@ -11,10 +12,11 @@
 # subfooter: Your Subfooter Here
 #
 # Questions? Comments?
-# Send them along to the Free Web Slide Show Alternatives (S5, S6, S9 And Friends) Forum/Mailing List. 
-# http://groups.google.com/group/webslideshow
+# Send them along to the wwwmake forum/mailing list.
+# http://groups.google.com/group/wwwmake
 
-__file__.html slides.html.erb
+
+__file__.html slides.html
 ui/default/blank.gif
 ui/default/bodybg.gif
 ui/default/framing.css
