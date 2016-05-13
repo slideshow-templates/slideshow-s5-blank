@@ -1,0 +1,7 @@
+#####
+#  GitHub Pages / Jekyll settings / config
+
+exclude:
+- README.md
+- s5blank.txt
+- package.json

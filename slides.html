@@ -1,18 +1,26 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+---
+---
+
+{% if jekyll %}
+  {% assign headers  = site.data.slides.headers %}
+  {% assign content  = site.data.slides.content %}
+{% endif %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-<title><%= @headers['title'] %></title>
+<title>{{ headers['title'] }}</title>
 <!-- metadata -->
-<meta name="generator" content="Slide Show (S9)" />
-<meta name="version" content="S5 1.1" />
-<meta name="author" content="<%= @headers['author']%>" />
-<meta name="company" content="<%= @headers['company']%>" />
+<meta name="generator" content="{{ headers['generator'] }}" />
+<meta name="version"   content="S5 1.1" />
+<meta name="author"    content="{{ headers['author'] }}" />
+<meta name="company"   content="{{ headers['company'] }}" />
 <!-- configuration parameters -->
 <meta name="defaultView" content="slideshow" />
-<meta name="controlVis" content="hidden" />
+<meta name="controlVis"  content="hidden" />
 <!-- style sheet links -->
 <link rel="stylesheet" href="ui/default/slides.css" type="text/css" media="projection" id="slideProj" />
 <link rel="stylesheet" href="ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" />
@@ -28,8 +36,8 @@
 <div id="currentSlide"><!-- DO NOT EDIT --></div>
 <div id="header"></div>
 <div id="footer">
-<h1><%= @headers['footer'] %></h1>
-<h2><%= @headers['subfooter'] %></h2>
+<h1>{{ headers['footer'] }}</h1>
+<h2>{{ headers['subfooter'] }}</h2>
 </div>
 
 </div>
@@ -38,16 +46,15 @@
 <div class="presentation">
 
 <div class="slide">
-<h1><%= @headers['title'] %></h1>
-<h2><%= @headers['subtitle'] %></h2>
-<h3><%= @headers['author']%></h3>
-<h4><%= @headers['company']%></h4>
+<h1>{{ headers['title'] }}</h1>
+<h2>{{ headers['subtitle'] }}></h2>
+<h3>{{ headers['author'] }}</h3>
+<h4>{{ headers['company'] }}</h4>
 </div>
 
-<%= @content %>
+{{ content }}
 
 </div> <!-- presentation -->
 
 </body>
 </html>
-
