@@ -31,10 +31,6 @@ the following headers in `slides.html`:
     footer: Your Footer Here
     subfooter: Your Subfooter Here
 
-See the original [S5: An Introduction](http://meyerweb.com/eric/tools/s5/s5-intro.html) slides in action or
-see the [Slide Show (S9) Tutorial](http://slideshow-s9.github.io/s5/tutorial1.html)
-slides built using this template pack.
-
 
 ## Try It Yourself - How To Use the S5 Blank Template Pack
 
