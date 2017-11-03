@@ -2,9 +2,10 @@
 
 ## Live Preview
 
+![](preview.png)
+
 See [`slides.html`](http://slideshow-templates.github.io/slideshow-s5-blank/slides.html).
 
-![](preview.png)
 
 
 ## What's Slide Show (S9)?
